@@ -66,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
         String sChangeColor; // 변화시킬 글자색
     }
 
+    class ViewHolder{
+        Button btn;
+        TextView txt;
+    }
+
     // listview처리를 위한 inner class
     class myListAdapter extends BaseAdapter{
 
@@ -121,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
             return convertView;
         }
+
 
         // 잘모르겠다.
         @Override
