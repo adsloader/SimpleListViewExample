@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setUpUI();
     }
 
+    
     // 화면을 만든다.
     private void setUpUI() {
 
